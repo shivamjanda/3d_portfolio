@@ -10,7 +10,7 @@
   margin: 0; /* Resetting margin */
   padding: 0; /* Resetting padding */
   box-sizing: border-box; /* Ensuring padding and border are included in the element's total width and height */
-  font-family: "Poppins", sans-serif; /* Setting global font to Poppins */
+  font-family: "jetBrainsmono", sans-serif; /* Setting global font to Poppins */
   scroll-behavior: smooth; /* Smooth scrolling for anchor links */
   color-scheme: dark; /* Using dark color scheme */
 }
@@ -29,6 +29,11 @@
   background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
+.oxford-gradient{
+  background: #001c57;
+  background: linear-gradient(-90deg, #001c57 0%, rgba(60, 51, 80, 0) 100%);
+  background: -webkit-linear-gradient(-90deg, #001c57 0%, rgba(60, 51, 80, 0) 100%);
+}
 .violet-gradient {
   background: #804dee;
   background: linear-gradient(-90deg, #804dee 0%, rgba(60, 51, 80, 0) 100%);

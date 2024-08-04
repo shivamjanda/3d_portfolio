@@ -19,8 +19,6 @@ import {
     homedepot,
     tendercare,
     bindingofissaccremake,
-    jobit,
-    tripguide,
     threejs,
   } from "../assets";
   

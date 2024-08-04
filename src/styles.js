@@ -1,3 +1,8 @@
+
+
+
+
+
 // Defining a styles object to store CSS classes as JavaScript strings
 const styles = {
   paddingX: "sm:px-16 px-6", // Padding for the x-axis: 16 units for small screens, 6 units for other screens
@@ -7,11 +12,11 @@ const styles = {
   // Hero section head text styles
   heroHeadText: "font-black text-white lg:text-[80px] sm:text-[60px] xs:text-[50px] text-[40px] lg:leading-[98px] mt-2",
   // Large text sizes for different screen sizes with white font color, black font weight, and margin top of 2 units
-  heroSubText: "text-[#dfd9ff] font-medium lg:text-[30px] sm:text-[26px] xs:text-[20px] text-[16px] lg:leading-[40px]",
+  heroSubText: "text-[#dfd9ff] font-jetBrainsmono lg:text-[30px] sm:text-[26px] xs:text-[20px] text-[16px] lg:leading-[40px]",
   // Sub text with different text sizes for different screen sizes, medium font weight, and a specific color
 
   // Section head text styles
-  sectionHeadText: "text-white font-black md:text-[60px] sm:text-[50px] xs:text-[40px] text-[30px]",
+  sectionHeadText: "text-white font-jetBrainsmono md:text-[60px] sm:text-[50px] xs:text-[40px] text-[30px]",
   // Large text sizes for different screen sizes with white font color and black font weight
   sectionSubText: "sm:text-[18px] text-[14px] text-secondary uppercase tracking-wider",
   // Smaller text sizes for different screen sizes, secondary text color, uppercase letters, and wider tracking

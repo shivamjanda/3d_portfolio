@@ -65,8 +65,8 @@ const Navbar = () => {
             <li
               key={nav.id} // Uniqure key for each list item
               className={`${
-                active === nav.title ? "text-white" : "text-secondary"
-              } hover:text-white text-[18px] font-medium cursor-pointer`} // Dynamic classes for active state and hover effect
+                active === nav.title ? "text-white" : "text-white"
+              } hover:text-[#00e187] text-[18px] font-medium cursor-pointer`} // Dynamic classes for active state and hover effect
               onClick={() => setActive(nav.title)} // Set the active link
             >
               {/* Anchor link to section based on nav.id */}
@@ -96,7 +96,7 @@ const Navbar = () => {
               {navLinks.map((nav) => (
                 <li
                   key={nav.id} // Uniqure key for each list item
-                  className={`font-poppins font-medium cursor-pointer text-[16px] ${
+                  className={`font-jetBrainsMono font-medium cursor-pointer text-[16px] ${
                     active === nav.title ? "text-white" : "text-secondary"
                   }`} // Dynamic classes for active state
                   onClick={() => {

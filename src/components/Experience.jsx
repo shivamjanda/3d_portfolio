@@ -15,7 +15,7 @@ const ExperienceCard = ({ experience }) => {
     // VerticalTimelineElement to create a timeline entry
     <VerticalTimelineElement
       contentStyle={{
-        background: "#1d1836", // Background color of the timeline content
+        background: "#001c57", // Background color of the timeline content
         color: "#fff", // Text color of the timeline content
       }}
       contentArrowStyle={{ borderRight: "7px solid  #232631" }}  // Style for the arrow connecting to the content

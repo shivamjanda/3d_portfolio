@@ -9,12 +9,15 @@ module.exports = {
     extend: {
       // Extending the default color palette
       colors: {
-        primary: "#050816", // Background plain color
+        primary: "#363538s", // Background plain color
         secondary: "#aaa6c3", // Paragraph text color
-        tertiary: "#151030", // Overview card color
-        "black-100": "#100d25", // Contact card color
+        tertiary: "#001c57", // Overview card color
+        "black-100": "#001c57", // Contact card color
         "black-200": "#090325", // Additional black shade
         "white-100": "#f3f3f3", // Text color for work experience
+      },
+      fontFamily: {
+        primary:"jetbrainsMono",
       },
       // Extending the default box shadow options
       boxShadow: {
@@ -26,7 +29,7 @@ module.exports = {
       },
       // Adding custom background images
       backgroundImage: {
-        "hero-pattern": "url('/src/assets/herobg.png')", // Hero section background image
+        "hero-pattern": "url('/src/assets/background.png')", // Hero section background image
       },
     },
   },

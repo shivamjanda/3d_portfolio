@@ -29,8 +29,7 @@ import homedepot from "./company/homedepot.png"
 
 
 import bindingofissaccremake from "./bindingofissaccremake.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+
 
 export {
   logo,
@@ -58,6 +57,5 @@ export {
   tendercare,
   homedepot,
   bindingofissaccremake,
-  jobit,
-  tripguide,
+
 };

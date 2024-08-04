@@ -22,13 +22,13 @@ const Hero = () => {
       <div className={`${styles.paddingX} absolute inset-0 top-[120px] max-w-7xl mx-auto flex flex-row items-start gap-5`}>
         {/* Decorative elements */}
         <div className="flex flex-col justify-center items-center mt-5">
-          <div className="w-5 h-5 rounded-full bg-[#915eff]" /> {/* Small circle */}
-          <div className="w-1 sm:h-80 h-40 violet-gradient" /> {/* Vertical line with gradient */}
+          <div className="w-5 h-5 rounded-full bg-[#001c57]" /> {/* Small circle */}
+          <div className="w-1 sm:h-80 h-40 oxford-gradient" /> {/* Vertical line with gradient */}
         </div>
         {/* Text content */}
         <div>
           <h1 className={`${styles.heroHeadText} text-white`}>
-            Hi, I'm <span className="text-[#66FCF1]">{text}<Cursor /></span> {/* Typewriter effect with cursor */}
+            Hi, I'm <span className="text-[#77b1d4]">{text}<Cursor /></span> {/* Typewriter effect with cursor */}
             
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
