@@ -1,6 +1,6 @@
 # Shivam Janda Portfolio
 
-Welcome to my portfolio! This project showcases my skills and experiences through various sections and projects I have worked on. It is built using React, Tailwind CSS, and Three.js.
+Welcome to on example of my portfolio! This project showcases my skills and experiences through various sections and projects I have worked on. It is built using React, Tailwind CSS, and Three.js.
 
 # Features
 
