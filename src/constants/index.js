@@ -123,6 +123,7 @@ import {
         "Keep Track of who checks in and out of the building",
         "Answer Phone inquiries",
         "Using excel sheets for inventory management",
+        "Data Entry",
       ],
     },
     {
@@ -221,16 +222,24 @@ import {
       source_code_link: "https://github.com/shivamjanda/The-Binding-of-Isaac-Video-Game-Remake",
     },
     {
-      name: "Insert my stuff here",
+      name: "Workout Website",
       description:
-        "mY description",
+        "Durham college Compuer Programming and Analysis course workout themed website",
       tags: [
         {
-          name: "react",
+          name: "JavaScript",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "HandleBars",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Netlify",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Strapi",
           color: "green-text-gradient",
         },
         {
