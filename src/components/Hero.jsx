@@ -32,7 +32,7 @@ const Hero = () => {
             
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            I am a second-year student at Durham College. <br className="sm:block hidden" /> {/* Subtext */}
+            I am a third-year student at Durham College. <br className="sm:block hidden" /> {/* Subtext */}
           </p>
         </div>
       </div>

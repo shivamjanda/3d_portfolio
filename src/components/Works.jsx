@@ -89,11 +89,7 @@ const Works = () => {
           variants={fadeIn("", "", 0.1, 1)} // Applying fadeIn animation variant
           className='mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]'
         >
-          Following projects showcases my skills and experience through
-          examples of my work. Each project is briefly described with
-          links to code repositories. It reflects my
-          ability to solve complex problems, work with different technologies,
-          and manage projects effectively.
+          The following projects highlight my skills and experience through practical examples of my work. Each project includes a brief description and links to the corresponding code repositories. They demonstrate my ability to tackle complex problems, work with diverse technologies, and manage projects efficiently.
         </motion.p>
       </div>
 
@@ -108,7 +104,7 @@ const Works = () => {
 };
 
 // Exporting the Works component wrapped with SectionWrapper higher-order component
-export default SectionWrapper(Works, "");
+export default SectionWrapper(Works, "work");
 
 
 /*

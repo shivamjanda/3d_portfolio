@@ -29,7 +29,8 @@ import homedepot from "./company/homedepot.png"
 
 
 import bindingofissaccremake from "./bindingofissaccremake.png";
-
+import NotifyHome from "./NotifyHome.png";
+import workoutwebsite from"./workoutwebsite.jpg";
 
 export {
   logo,
@@ -57,5 +58,7 @@ export {
   tendercare,
   homedepot,
   bindingofissaccremake,
+  NotifyHome,
+  workoutwebsite
 
 };

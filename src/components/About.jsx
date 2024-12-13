@@ -61,8 +61,7 @@ const About = () => {
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
         >
         {/* Introduction text */}
-        I am a second-year student at Durham College. The program I am in is computer programming and I plan on transferring to Ontario Tech University to get my computer science degree. I have always enjoyed coding and computer-related activities growing up. I am interested in many industries in this field, including, video game development, web programming, cloud engineering, AI, etc. As a hard-working person who is extremely passionate and finds joy in his field, 
-        I am really excited to advance further in the workplace with a variety of skills from different fields in software development / computer science.  
+        I am a second-year Computer Programming student at Durham College, with plans to transfer to Ontario Tech University to pursue a degree in Computer Science. My passion for coding and technology started early in life, and I have always enjoyed exploring computer-related activities. I am particularly interested in diverse areas within the tech industry, including video game development, web programming, cloud engineering, and artificial intelligence. As a dedicated and hardworking individual who finds genuine joy in this field, I am eager to grow professionally and expand my expertise across various disciplines in software development and computer science.
       </motion.p>
 
       {/* Container for service cards */}

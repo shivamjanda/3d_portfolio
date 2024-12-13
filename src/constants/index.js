@@ -20,6 +20,8 @@ import {
     tendercare,
     bindingofissaccremake,
     threejs,
+    NotifyHome,
+    workoutwebsite,
   } from "../assets";
   
   export const navLinks = [
@@ -224,7 +226,7 @@ import {
     {
       name: "Workout Website",
       description:
-        "Durham college Compuer Programming and Analysis course workout themed website",
+        "My project is a fitness themed web applicaiton which uses **Eleventy** as the SSG (Static Site Generator) and **Strapi Cloud** as the headless CMS (Content Mangement System). My website shows different workout routines,which includes cardio, streangth training and yoga and having its own pages for each exercise. Furthermore, the website hasa blog section where I share my previous lab writeups and future ones, and technology related blog posts I have made. This assignment was done as a project for my Computer Programming and Analysis course at Durham College.",
       tags: [
         {
           name: "JavaScript",
@@ -247,29 +249,38 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: bindingofissaccremake,
-      source_code_link: "https://github.com/",
+      image: workoutwebsite,
+      source_code_link: "https://github.com/shivamjanda/WorkoutThemedWebsite",
     },
     {
-      name: "Insert my stuff here",
+      name: "Notify - Note App",
       description:
-        "my description",
+        "An full-stack application where you can edit, add, delete and store your sticky notes! Created with React as the Front-End and Django as its backend using the rest framework.",
       tags: [
         {
-          name: "nextjs",
+          name: "JavaScript",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "Python",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "React",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Django",
           color: "green-text-gradient",
         },
         {
           name: "css",
           color: "pink-text-gradient",
         },
+
       ],
-      image: bindingofissaccremake,
-      source_code_link: "https://github.com/",
+      image: NotifyHome,
+      source_code_link: "https://github.com/shivamjanda/Notify-Note-App",
     },
   ];
   

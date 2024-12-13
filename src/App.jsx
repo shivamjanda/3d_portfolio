@@ -12,18 +12,21 @@ const App = () => {
    {/* Main container with relative positioning and primary background color */}
     <div className ="relative z-0 bg-primary">
       {/* Hero section with background pattern */}
-      <div className= "bg-hero-pattern bg-cover bg-no-repeat bg-center">
+      <div className= "custom-radial-linear-gradient">
         <Navbar /> {/* Rendering the Navbar component */}
         <Hero /> {/* Rendering the Hero component */}
-      </div>
+      
+     
       <About /> {/* Rendering the About component */}
       <Experience /> {/* Rendering the Experience component */}
       <Tech /> {/* Rendering the Tech component */}
       <Works /> {/* Rendering the Works component */}
+      
       {/* Contact section with StarsCanvas background */}
       <div className="relative z-0">
         <Contact /> {/* Rendering the Contact component */}
         <StarsCanvas /> {/* Rendering the StarsCanvas component */}
+      </div>
       </div>
     </div>
    </BrowserRouter> 
